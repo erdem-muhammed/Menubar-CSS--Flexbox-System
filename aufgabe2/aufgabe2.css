@@ -1,0 +1,51 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;
+}
+.gradient
+{
+	height: 20vh;
+	background: rgb(245,216,216);
+    background: linear-gradient(148deg, 
+    rgba(245,216,216,1) 0%, rgba(255,71,79,1) 10%, 
+    rgba(182,15,108,0.9360119047619048) 34%, 
+    rgba(185,38,137,0.9136029411764706) 49%, 
+    rgba(164,25,147,1) 82%, 
+    rgba(115,0,116,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu
+{
+	width: 60%;
+	height: 60px;
+	display: flex;
+	font-size: 20px;
+	font-weight: bold;
+	border: 1px solid #f8f9fa;
+	background-color: #f8f9fa;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 2px;
+}
+.menu a:hover
+{
+	background-color: white
+}
+.menu a
+{
+	width: 25%;
+	height: 100%;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+}
